@@ -1,0 +1,48 @@
+.login__form {
+    display: flex;
+    justify-content: center;
+}
+
+.login__email-input {
+    font-family: "Mulish", "sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    max-width: 300px;
+    width: 100%;
+    margin: 0;
+    margin-right: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.password__email-input {
+    font-family: "Mulish", "sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    max-width: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.login__submit-btn {
+    font-family: "Mulish", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 80px;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    margin-left: 100px;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}

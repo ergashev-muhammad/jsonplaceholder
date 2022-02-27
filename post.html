@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Posts Page</title>
+</head>
+<body>
+
+    <!-- Section POST -->
+
+    <section class="post-main">
+        <div class="container">
+            
+            <!-- Log out and home page buttons -->
+            
+            <div class="post__buttons">
+                
+                <button class="home-page__button">Home</button>
+
+                <button class="log-out__button">Log out</button>
+                
+            </div>
+            
+            <!-- Posts -->
+            
+            <ul class="posts"></ul>
+            
+            <!-- Template -->
+            
+            <template id="post__template">
+                <li class="post">
+                    
+                    <h3 class="post__title">Hi</h3>
+                    
+                    <p class="post__paragraph">How are you?</p>
+                    
+                </li>
+            </template>
+            
+        </div>
+    </section>
+    
+    <!-- JS connections -->
+    
+    <script src="js/utils.js"></script>
+    <script src="js/post.js"></script>
+    
+</body>
+</html>

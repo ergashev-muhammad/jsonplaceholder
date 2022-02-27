@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Home Page</title>
+</head>
+<body>
+    
+    <!-- Section USERS -->
+    
+    <section class="users-main">
+        <div class="container">
+            
+            <!-- Log out button -->
+            
+            <button class="log-out__button">Log out</button>
+            
+            <!-- Users -->
+            
+            <ul class="users"></ul>
+            
+            <!-- Template -->
+            
+            <template id="user__template">
+                <li class="user">
+                    
+                    <h2 class="user__name">Jake</h2>
+                    
+                    <h3 class="user__user-name">Smith</h3>
+                    
+                    <a class="user__email" href="mailto:muhammadergashev707@gmail.com">muhammadergashev707@gmail.com</a>
+                    
+                    <p class="user__address"> King's Street Brighton</p>
+                    
+                    <tel class="user__phone">07-777-07-70</tel>
+                    
+                    <a class="user__website" href="mailto:hildegard.org">hildegard.org</a>
+                    
+                    <p class="user__company">LinkedIn</p>
+                    
+                </li>
+            </template>
+        </div>
+    </section>
+    
+    <!-- JS connections -->
+    
+    <script src="js/utils.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>

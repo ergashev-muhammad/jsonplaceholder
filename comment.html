@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Comments Page</title>
+</head>
+<body>
+    
+    <!-- Section COMMENTS -->
+    
+    <section class="comments-main">
+        <div class="container">
+            
+            <!-- Log out and posts buttons  -->
+            
+            <div class="comment__buttons">
+                
+                <button class="comment__button--post">Posts</button>
+                
+                <button class="log-out__button">Log out</button>
+                
+            </div>
+            
+            <!-- Comments -->
+            
+            <ul class="comments"></ul>
+            
+            <!-- Template -->
+            
+            <template id="comment__template">
+                <li class="comment">
+                    
+                    <h3 class="comment__title">Hello</h3>
+                    
+                    <a class="comment__email" href="mailto:muhammadergashev707@gmail.com">mailto:muhammadergashev707@gmail.com</a>
+                    
+                    <p class="comment__paragraph">What is your name?</p>
+                    
+                </li>
+            </template>
+            
+        </div>
+    </section>
+    
+    <!-- JS connections -->
+    
+    <script src="js/utils.js"></script>
+    <script src="js/comment.js"></script>
+    
+</body>
+</html>
